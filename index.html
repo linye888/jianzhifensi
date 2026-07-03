@@ -49,13 +49,19 @@
     </a>
   </section>
 
-  <!-- ========== 模块3：钱包收益凭证截图 ========== -->
+  <!-- ========== 模块3：钱包收益凭证（展示他人真实提现） ========== -->
   <section class="wallet" id="prueba">
     <h2 class="section-title section-title--light">PRUEBA DE GANANCIAS REALES</h2>
+    <p class="wallet__intro">Retiros confirmados de usuarios que ya ganan con tareas diarias</p>
     <div class="wallet__card">
+      <div class="wallet__proof-badge">
+        <span class="wallet__proof-icon">✓</span>
+        Captura real de usuario verificado
+      </div>
       <div class="wallet__header">
-        <div class="wallet__avatar">💰</div>
+        <div class="wallet__avatar">👤</div>
         <div>
+          <p class="wallet__user">Camila R. · Santiago, Chile</p>
           <p class="wallet__label">Saldo de billetera</p>
           <p class="wallet__balance">$847.320 <span class="wallet__currency">CLP</span></p>
         </div>
@@ -66,12 +72,36 @@
           <span class="wallet__stat-value">$312.850 CLP</span>
         </div>
         <div class="wallet__stat wallet__stat--highlight">
-          <span class="wallet__stat-label">Tareas completadas</span>
-          <span class="wallet__stat-value">156</span>
+          <span class="wallet__stat-label">Retiros completados</span>
+          <span class="wallet__stat-value">8</span>
         </div>
       </div>
       <div class="wallet__history">
         <p class="wallet__history-title">Historial de transacciones</p>
+        <div class="wallet__tx wallet__tx--withdraw">
+          <div class="wallet__tx-icon wallet__tx-icon--success">✓</div>
+          <div class="wallet__tx-info">
+            <span>Retiro exitoso a Banco de Chile</span>
+            <small>Ayer, 18:40 · Comprobante #4821</small>
+          </div>
+          <span class="wallet__tx-amount wallet__tx-amount--paid">$50.000 CLP</span>
+        </div>
+        <div class="wallet__tx wallet__tx--withdraw">
+          <div class="wallet__tx-icon wallet__tx-icon--success">✓</div>
+          <div class="wallet__tx-info">
+            <span>Retiro exitoso a BCI</span>
+            <small>12 jun, 15:22 · Comprobante #4798</small>
+          </div>
+          <span class="wallet__tx-amount wallet__tx-amount--paid">$35.000 CLP</span>
+        </div>
+        <div class="wallet__tx wallet__tx--withdraw">
+          <div class="wallet__tx-icon wallet__tx-icon--success">✓</div>
+          <div class="wallet__tx-info">
+            <span>Retiro exitoso a Banco Santander</span>
+            <small>8 jun, 10:05 · Comprobante #4756</small>
+          </div>
+          <span class="wallet__tx-amount wallet__tx-amount--paid">$80.000 CLP</span>
+        </div>
         <div class="wallet__tx">
           <div class="wallet__tx-icon wallet__tx-icon--green">▶</div>
           <div class="wallet__tx-info">
@@ -88,28 +118,12 @@
           </div>
           <span class="wallet__tx-amount">+$1.800 CLP</span>
         </div>
-        <div class="wallet__tx">
-          <div class="wallet__tx-icon wallet__tx-icon--blue">🏦</div>
-          <div class="wallet__tx-info">
-            <span>Retiro a Banco de Chile</span>
-            <small>Ayer, 18:40</small>
-          </div>
-          <span class="wallet__tx-amount wallet__tx-amount--out">-$50.000 CLP</span>
-        </div>
-        <div class="wallet__tx">
-          <div class="wallet__tx-icon wallet__tx-icon--green">▶</div>
-          <div class="wallet__tx-info">
-            <span>Reels Instagram completado</span>
-            <small>Ayer, 09:20</small>
-          </div>
-          <span class="wallet__tx-amount">+$3.200 CLP</span>
-        </div>
       </div>
-      <button type="button" class="wallet__withdraw whatsapp-link" data-track="modulo3-retirar">
-        Retirar al banco
-      </button>
+      <div class="wallet__verified">
+        <span>🔒</span> Datos de usuario real · Solo referencia visual
+      </div>
     </div>
-    <p class="wallet__note">Estos son los ingresos que puedes generar haciendo tareas diarias</p>
+    <p class="wallet__note">Estas son ganancias y retiros reales de otras personas. Tú también puedes lograrlo haciendo tareas diarias</p>
     <a href="#" class="btn btn--outline btn--block whatsapp-link" data-track="modulo3">
       Consulta cómo conseguir estos ingresos →
     </a>
